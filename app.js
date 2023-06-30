@@ -37,7 +37,7 @@ form.addEventListener('submit', function(e) {
     topText.style.position='absolute';
     topText.style.top='0';
     topText.style.textAlign='center';
-    topText.style.fontSize='70px';
+    topText.style.fontSize='35px';
     topText.style.color='white';
     topText.style.webkitTextStroke='3px  #000';
     topText.style.fontFamily='impact';
@@ -50,7 +50,7 @@ form.addEventListener('submit', function(e) {
     bottomText.style.position='absolute';
     bottomText.style.bottom='0';
     bottomText.style.textAlign='center';
-    bottomText.style.fontSize='70px';
+    bottomText.style.fontSize='35px';
     bottomText.style.color='white';
     bottomText.style.webkitTextStroke='3px  #000';
     bottomText.style.fontFamily='Impact';
@@ -58,7 +58,7 @@ form.addEventListener('submit', function(e) {
 
     const image = document.createElement('img');
     image.setAttribute('src', imageUrl);
-    image.style.blockSize='800px';
+    image.style.blockSize='400px';
 
     const deleteMeText=document.createElement('div');
     deleteMeText.style.opacity='0';
@@ -76,12 +76,12 @@ form.addEventListener('submit', function(e) {
         deleteMeText.style.position='absolute';
 
         deleteMeText.innerText='DELETE ME';
-        deleteMeText.style.width='800px';
-        deleteMeText.style.height='800px';
+        deleteMeText.style.width='200px';
+        deleteMeText.style.height='200px';
         deleteMeText.style.fontFamily='Bebas Neue';
         deleteMeText.style.color='red';
-        deleteMeText.style.fontSize='200px';
-        deleteMeText.style.top='300px';
+        deleteMeText.style.fontSize='50px';
+        deleteMeText.style.top='170px';
         deleteMeText.style.left='150px';
         deleteMeText.style.zIndex='2';
         image.style.transition='filter 2s';
